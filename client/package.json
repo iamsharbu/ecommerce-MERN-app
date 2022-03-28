@@ -1,0 +1,33 @@
+{
+    "name": "react-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --mode development --open --hot",
+        "build": "webpack --mode production"
+    },
+    "keywords": [],
+    "author": "mohamed-sharbudeen <iamsharbu@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "@material-ui/core": "^4.12.3",
+        "@material-ui/icons": "^4.11.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "styled-components": "^5.3.5"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.4",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
+        "babel-loader": "^8.2.3",
+        "css-loader": "^6.6.0",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.69.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    }
+}
